@@ -1,5 +1,0 @@
-/mnt/e/MCU/Arm/build/CMakeFiles/rebuild_cache.dir
-/mnt/e/MCU/Arm/build/CMakeFiles/edit_cache.dir
-/mnt/e/MCU/Arm/build/CMakeFiles/ARM_COMP.elf.dir
-/mnt/e/MCU/Arm/build/Drivers/STM32F1xx_HAL_Driver/CMakeFiles/rebuild_cache.dir
-/mnt/e/MCU/Arm/build/Drivers/STM32F1xx_HAL_Driver/CMakeFiles/edit_cache.dir

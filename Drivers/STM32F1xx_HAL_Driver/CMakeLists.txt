@@ -1,5 +1,0 @@
-target_include_directories(${TARGET_NAME}.elf PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Inc)
-target_include_directories(${TARGET_NAME}.elf PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Inc/Lagacy)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Inc)
-aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src CODE_SRCS)
-target_sources(${TARGET_NAME}.elf PRIVATE ${CODE_SRCS})
