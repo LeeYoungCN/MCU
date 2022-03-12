@@ -1,5 +1,4 @@
-target_include_directories(${TARGET_NAME}.axf PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/Device/Include)
-target_include_directories(${TARGET_NAME}.axf PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/Core/Include)
-file(GLOB ASM_FILES *.s)
-message(${ASM_FILES})
-target_sources(${TARGET_NAME}.axf PRIVATE ${ASM_FILES})
+target_include_directories(${TARGET_NAME}.axf PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/Include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Device/ST/STM32F1xx/Include
+)
